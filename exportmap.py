@@ -4,7 +4,7 @@ import arcpy
 
 input_path  = arcpy.GetParameterAsText(0)
 resolution  = arcpy.GetParameterAsText(1)
-ischecked   = arcpy.GetParameterAsText(2)
+isexportTree   = arcpy.GetParameterAsText(2)
 output_path = arcpy.GetParameterAsText(3)
 
 def export_mxd(inputfile,output,res):
@@ -48,7 +48,7 @@ def export_mxd_tree(src,dst,handle = None,ignore = None):
 def handle_mxd(res):
     return lambda i,o:export_mxd(i,o,res)
 
-if str(ischecked) == 'true':
+if str(isexportTree) == 'true':
     export_mxd_tree(input_path,output_path,handle_mxd(resolution),ignore_file)
 else:
     export_into_one(input_path,output_path,handle_mxd(resolution))
