@@ -12,8 +12,9 @@ Usages
 ======
 
 ## exportmap.py
-batch export mxd project file inot jpg file.
-![图片]()
+Batch export mxd project file inot jpg file.
+![图片](https://github.com/htoooth/batch_mxd/blob/master/imgs/exportjpg.png)
+
 ## savemxdwithversion.py
-batch save 10.2 project file as 9.3 mxd project file.
-![图片]()
+Batch save 10.2 project file as 9.3 mxd project file.
+![图片](https://github.com/htoooth/batch_mxd/blob/master/imgs/savemxdwithversion.png)
