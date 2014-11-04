@@ -12,7 +12,7 @@ Usages
 ======
 
 ## exportmap.py
-Batch export mxd project file inot jpg file.
+Batch export mxd project file into jpg file.
 
 ![图片](https://github.com/htoooth/batch_mxd/blob/master/imgs/exportjpg.png)
 
